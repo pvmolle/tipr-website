@@ -1059,56 +1059,70 @@ striping:
   font-size: 18px !important;
 }
 
-.settings .phone #case {
-  height: 570px;
-  width: 277px;
-  border-radius: 40px 40px;
-  border: 1px solid #000;
-  margin: auto;
+.settings .phone {
+  display: block;
+  position: absolute;
+  background: url("../images/phone.png") no-repeat;
+  width: 307px;
+  height: 556px;
+  bottom: 0;
+  left: 150px;
 }
-.settings .phone #earsection {
-  margin-top: 36px;
-  margin-left: 72px;
-  height: 16px;
+.settings .phonewrapper {
+  position: relative;
+  top: 33px;
+  left: 15px;
+  width: 275px;
+  height: 490px;
+  display: block;
 }
-.settings .phone #camera {
-  float: left;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #000;
-  border-radius: 9px 9px;
+.settings .phonewrapper img {
+  margin-top: 30px;
+  margin-left: 13px;
+  border-radius: 10px;
 }
-.settings .phone #speaker {
-  float: left;
-  width: 54px;
-  height: 5px;
-  margin-left: 15px;
-  border: 1px solid #000;
-  border-radius: 7px 7px;
+.settings .phonewrapper .overlay {
+  display: inline-block;
+  position: relative;
 }
-.settings .phone #screen {
-  clear: both;
+.settings .phonewrapper .overlay:after {
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: 10;
   width: 250px;
-  height: 374px;
-  margin: auto;
-  margin-top: 35px;
-  border: 1px solid #000;
+  height: 150px;
+  display: block;
+  position: absolute;
+  background: #000;
+  opacity: 0.5;
+  margin-top: 30px;
+  margin-left: 13px;
+  border-radius: 10px;
 }
-.settings .phone #button {
-  height: 56px;
-  width: 56px;
-  border: 1px solid #000;
-  border-radius: 28px 28px;
-  margin: auto;
-  margin-top: 22px;
+.settings .phonewrapper .overlay .userinfo {
+  width: 100%;
+  z-index: 20;
+  position: absolute;
+  text-align: center;
+  margin-left: 13px;
+  margin-top: 60px;
+  color: #fff;
+  text-shadow: none;
 }
-.settings .phone #buttonsquare {
-  height: 17px;
-  width: 17px;
-  border: 1px solid #000;
-  border-radius: 5px;
-  margin: auto;
-  margin-top: 18px;
+.settings .phonewrapper .overlay .userinfo p {
+  margin-top: -20px;
+}
+.settings .phonewrapper .aboutuser {
+  background: #fff;
+  padding: 5px 10px;
+  margin: 12px;
+  border-radius: 10px;
+}
+.settings .phonewrapper .qrcode img {
+  margin-left: 37px;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 body {

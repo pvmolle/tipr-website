@@ -16,7 +16,7 @@
 
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main2.css">
 </head>
 <body class="pure-skin-tipr settings">
 
@@ -34,21 +34,59 @@
         </aside>
         <main>
 			<div class="pure-g">
-		        <div class="pure-u-1-2 phone">
-		            <div id="case">
-						<div id="earsection">
-							<div id="camera"></div>
-							<div id="speaker"></div>
-						</div>
-						<div id="screen"></div>
-						<div id="button">
-							<div id="buttonsquare"></div>
-						</div>
-					</div>
+		        <div class="pure-u-1-2">
+		            <div class="phone">
+		            	<div class="phonewrapper">
+		            		<div class="overlay">
+				                <div class="userinfo">
+				                    <h2>Steve</h2>
+				                    <p>Ghent - I play Guitar</p>
+				                </div>
+				                <img src="http://lorempixel.com/250/150" alt="profile"/>
+				            </div>
+				            <div class="aboutuser">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				            </div>
+				            <div class="qrcode">
+								<img src="images/qrcode.png" width="200px" height="200px">
+				            </div>
+		            	</div>
+		            </div>
 		        </div>
 
 		        <div class="pure-u-1-2">
-		            <p>Thirds</p>
+		        	<h2>Edit your settings</h2>
+		            <form class="pure-form pure-form-aligned">
+					    <fieldset>
+					        <div class="pure-control-group">
+					            <label for="name">Username</label>
+					            <input id="name" type="text" placeholder="Username">
+					        </div>
+
+					        <div class="pure-control-group">
+					            <label for="email">E-mail</label>
+					            <input id="email" type="email" placeholder="E-mail">
+					        </div>
+
+					        <div class="pure-control-group">
+					            <label for="email">Email Address</label>
+					            <input id="email" type="email" placeholder="Email Address">
+					        </div>
+
+					        <div class="pure-control-group">
+					            <label for="foo">Supercalifragilistic Label</label>
+					            <input id="foo" type="text" placeholder="Enter something here...">
+					        </div>
+
+					        <div class="pure-controls">
+					            <label for="cb" class="pure-checkbox">
+					                <input id="cb" type="checkbox"> I've read the terms and conditions
+					            </label>
+
+					            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+					        </div>
+					    </fieldset>
+					</form>
 		        </div>
 		    </div>
         </main>

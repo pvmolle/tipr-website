@@ -65,7 +65,7 @@ module.exports = function(grunt) {
 		autoprefixer: {
 			css: {
 				files: {
-					'dist/css/main.css': 'src/sass/tmp/main.css'
+					'dist/css/main2.css': 'src/sass/tmp/main.css'
 				}
 			}
 		},
