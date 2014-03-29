@@ -1066,7 +1066,7 @@ striping:
   width: 307px;
   height: 556px;
   bottom: 0;
-  left: 150px;
+  left: 170px;
 }
 .settings .phonewrapper {
   position: relative;
@@ -1119,10 +1119,41 @@ striping:
   margin: 12px;
   border-radius: 10px;
 }
-.settings .phonewrapper .qrcode img {
-  margin-left: 37px;
-  margin-top: 10px;
-  border-radius: 10px;
+.settings .phonewrapper .social {
+  padding: 10px 16px;
+  text-align: center;
+}
+.settings .phonewrapper .stats {
+  background: #000000;
+  width: 240px;
+  height: 150px;
+  margin: 10px 16px;
+}
+.settings .edit span.icon {
+  position: absolute;
+  z-index: 10;
+  margin: 8px 0 0 10px;
+}
+.settings .edit span.icon + input {
+  padding-left: 25px;
+}
+.settings .edit .showstats {
+  font-weight: bold;
+  margin-top: -10px;
+}
+.settings .edit .upload {
+  margin-top: -20px;
+}
+.settings .edit .upload span {
+  position: relative;
+  top: 16px;
+  font-weight: bold;
+}
+.settings .edit input[type="file"] {
+  padding-left: 110px;
+}
+.settings .edit #activity {
+  margin-bottom: 10px;
 }
 
 body {
@@ -1208,4 +1239,8 @@ a {
 
 .box {
   padding: 10px;
+}
+
+#chart-data {
+  display: none;
 }
