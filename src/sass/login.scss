@@ -1,0 +1,18 @@
+.signin, .signup {
+	.wrapper {
+		background: none;
+		width: 300px;
+		height: 300px;
+		margin-left: -150px;
+   		margin-top: -150px;
+	}
+	h1 {
+		text-align: center;
+		font-size: $size1;
+		color: $black;
+	}
+	.pure-input {
+		width: 100%;
+		font-size: $size4!important;
+	}
+}

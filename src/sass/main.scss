@@ -1,0 +1,86 @@
+@import 'skin';
+@import 'vars';
+@import 'stats';
+@import 'login';
+@import 'settings';
+
+body {
+	color: $black;
+	font-family: $opensans;
+	font-weight: 400;
+	font-size: $size5;
+	background: #e2cab0;
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+.wrapper {
+	display: block;
+	background: $white;
+	width: 1000px;
+	height: 600px;
+	margin: 50px auto 0 auto;
+	border-radius: $radius;
+	top: 50%;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: -300px; 
+    position: absolute;
+}
+h1, h2, h3, .logo {
+	font-family: $nunito;
+}
+a {
+	color: $orange;
+	text-decoration: none;
+}
+.wrapper {
+	aside {
+		display: block;
+		position: relative;
+		background: #ff6600;
+		color: $white;
+		height: 100%;
+		width: 100px;
+		float: left;
+		border-top-left-radius: $radius;
+		border-bottom-left-radius: $radius;
+	}
+	main {
+		display: block;
+		float: left;
+		width: 880px;
+		padding: 10px;
+	}
+}
+.wrapper aside {
+	.logo {
+		font-size: $size3;
+		line-height: $size3;
+		text-align: center;
+		margin-top: 40px;
+	}
+	ul {
+		font-size: $size4;
+		text-align: center;
+		list-style: none;
+		margin-left: -40px;
+		
+	}
+	ul li{
+		padding: 15px 0;
+	}
+	ul li a {
+		color: $white;
+	}
+	ul li.active, ul li:hover, ul li.active a, ul li:hover a {
+		background: $white;
+		color: $orange;
+	}
+	ul li:last-child {
+		position: absolute;
+		bottom: 20px;
+		text-align: center;
+		width: 100px;
+	}
+}
+.box { padding: 10px; }

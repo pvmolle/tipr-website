@@ -1,0 +1,48 @@
+.wrapper main {
+	.quickstats {
+		.box {
+			font-family: $nunito;
+			border-left: 3px solid $orange;
+			padding-left: 10px;
+			margin-left: 10px;
+			height: 40px;
+			line-height: 40px;
+			span {
+				font-size: $size2;
+				line-height: 40px;
+				color: $orange;
+			}
+			p {
+				font-size: $size4;
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+	.stats {
+		.bigchart {
+			width: 100%;
+			height: 200px;
+		}
+		.list {
+			li {
+				list-style: none;
+				margin-left: -40px;
+				border-bottom: 1px solid #eee;
+				padding: 7px 5px;
+				font-size: $size5;
+			}
+			span {
+				float: right;
+				font-weight: bold;
+			}
+			li:nth-child(odd) {
+				background: #ffe5c9;
+			}
+		}
+		.qrcode img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
